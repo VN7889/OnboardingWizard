@@ -1,0 +1,76 @@
+.wizard-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wizard-step {
+  display: none;
+}
+
+.wizard-step.active {
+  display: block;
+}
+
+.wizard-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.wizard-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wizard-button:disabled {
+  background-color: #d6d8db;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.admin-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.admin-title {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-form input, .admin-form select {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+.admin-form button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
